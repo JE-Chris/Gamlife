@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="code_blue">#2862EE</color>
+
+    <!-- 各种背景色 -->
+    <color name="_2Back">#feefdc</color>
+    <color name="_4Back">#fee7bb</color>
+    <color name="_8Back">#ff8f6a</color>
+    <color name="_16Back">#fe7251</color>
+    <color name="_32Back">#ff6342</color>
+    <color name="_64Back">#fe5c43</color>
+    <color name="_128Back">#fad177</color>
+    <color name="_256Back">#f9d067</color>
+    <color name="_512Back">#f9ca58</color>
+    <color name="_1024Back">#f3be3c</color>
+    <color name="_2048Back">#f6bc2b</color>
+    <color name="_4096Back">#ff4f3d</color>
+    <color name="_8192Back">#ff341d</color>
+    <color name="_16384Back">#ff331f</color>
+    <color name="_32768Back">#71b8d8</color>
+    <color name="_65536Back">#5ea1e5</color>
+    <color name="_131072Back">#007fc2</color>
+    <color name="_262144Back">#262144</color>
+
+    <!-- 其他背景色 -->
+    <color name="allBack">#faf8ef</color>
+    <color name="scoreBack">#bbada0</color>
+    <color name="gameViewBack">#bbada0</color>
+    <color name="normalCardBack">#ccc0b3</color>
+
+    <!-- 各种字体色 -->
+    <color name="_2Font">#776e65</color>
+    <color name="_4Font">#776e65</color>
+    <color name="otherFont">#f9f6f2</color>
+
+    <!--Google 颜色 -->
+    <color name="google_red">#FFC93437</color>
+    <color name="google_blue">#FF375BF1</color>
+    <color name="google_yellow">#FFF7D23E</color>
+    <color name="google_green">#FF34A350</color>
+
+    <color name="blue_dark">#0099cc</color>
+    <color name="blue">#33b5e5</color>
+    <color name="blue_light">#7fb9fa</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#999999</color>
+    <color name="orange">#ff6633</color>
+    <color name="orange_dark">#B3ff6633</color>
+    <color name="orange_buy">#ffb93e</color>
+    <color name="black">#4F4F4F</color>
+    <color name="purple">#a16ef3</color>
+    <color name="green">#45C01A</color>
+    <color name="yellow">#DEC600</color>
+    <color name="red">#FF0000</color>
+    <color name="grey2">#F5F5F5</color>
+    <!-- 字体灰色-->
+    <color name="grey3">#768693</color>
+    <!-- 暖灰色 -->
+    <color name="grey_warm">#E0E0E0</color>
+    <!-- 背景灰色 -->
+    <color name="grey_back">#fff0f3f6</color>
+    <!--亮灰色-->
+    <color name="grey_light">#cccccc</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+
+    <color name="text_color">#222222</color>
+
+    <!-- 飞机大战相关 -->
+    <color name="ui_main">#D81B60</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="game_background">@color/colorPrimaryDark</color>
+    <color name="load_text">#eeeeee</color>
+</resources>

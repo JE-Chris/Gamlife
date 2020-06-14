@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_2"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/badMood"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_btn"
+            android:layout_marginRight="6dp"
+            android:text="@string/badMood"
+            android:textColor="#EEAEEE"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/add_task"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/addTask"
+            android:textSize="24dp"
+            android:textColor="#00bfff"
+            android:background="@drawable/bg_btn"
+            android:drawableRight="@mipmap/add_2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--  设置每日任务的下拉菜单  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/daily"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:alpha="0.7"
+                android:textSize="30dp"
+                android:textColor="#00bfff"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:background="@drawable/bg_tv"
+                android:clickable="true"  />
+
+            <ListView
+                android:id="@+id/daily_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <!--  设置主线任务的下拉菜单  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:alpha="0.7"
+                android:textSize="30dp"
+                android:textColor="#00bfff"
+                android:gravity="center"
+                android:background="@drawable/bg_tv"
+                android:clickable="true"  />
+
+            <ListView
+                android:id="@+id/main_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:scrollbarFadeDuration="0"
+                android:fadeScrollbars="true"/>
+
+        </LinearLayout>
+
+        <!--  设置支线任务的下拉菜单  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/side"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:alpha="0.7"
+                android:textSize="30dp"
+                android:textColor="#00bfff"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:background="@drawable/bg_tv"
+                android:clickable="true" />
+
+            <ListView
+                android:id="@+id/side_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/wish_center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn"
+            android:text="@string/wishCenter"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/task_center"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="@drawable/bg_btn"
+            android:text="@string/taskCenter"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn"
+            android:text="@string/achievement"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/relax"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn"
+            android:text="@string/relax"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

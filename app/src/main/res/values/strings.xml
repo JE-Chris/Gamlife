@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">GameLife</string>
+    <string name="wishCenter">愿望中心</string>
+    <string name="taskCenter">任务中心</string>
+    <string name="achievement">成就时刻</string>
+    <string name="relax">轻松一刻</string>
+    <string name="dailyTask">    每日任务    </string>
+    <string name="myGoal">我的金币：10</string>
+    <string name="mainTask">    主线任务    </string>
+    <string name="sideTask">    支线任务    </string>
+    <string name="game2048">Game 2048</string>
+    <string name="gameplane">飞机大战</string>
+    <string name="addWish">添加愿望</string>
+    <string name="welcome">-:WELCOME:-</string>
+    <string name="addTask">添加悬赏</string>
+    <string name="badMood">BadMood</string>
+
+    <!-- Game 2048 的字符串 -->
+    <string name="model">模式选择</string>
+    <string name="start">开始游戏</string>
+    <string name="history">历史排行</string>
+    <string name="Menu">游戏目录</string>
+    <string name="sound_control">音量控制</string>
+    <string name="bgm">声音控制</string>
+    <string name="finish">完成</string>
+    <string name="model_classic">经典模式</string>
+    <string name="model_limit">限时模式</string>
+    <string name="countdown">倒计时模式</string>
+    <string name="game_2048">2048</string>
+    <string name="name">姓名</string>
+    <string name="score">得分</string>
+
+    <!-- dialog 字符串 -->
+    <string name="dialog_hint">您的姓名</string>
+    <string name="dialog_title">您输了</string>
+    <string name="dialog_positive">我要入榜</string>
+    <string name="dialog_negative">放弃</string>
+    <string name="dialog_open_title">用户信息</string>
+    <string name="continueGame">继续游戏</string>
+
+    <!-- 飞机大战相关 -->
+    <string name="title_activity_load">LoadActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="kio_studio">Kio Studio</string>
+    <string name="seeHistory">查看历史纪录</string>
+    <string name="scoreInt">%1$d</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_menu"
+    android:orientation="vertical"
+    tools:context=".Activity.MenuActivity">
+
+    <TextView
+        android:id="@+id/pic_2048"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:background="@mipmap/bg_2048"
+        android:alpha="0.7" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/pic_bgm"
+        android:text="@string/bgm"
+        android:paddingTop="4dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/sound"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:paddingRight="8dp"
+            android:background="@drawable/btn_sound"
+            android:layout_marginRight="20dp"/>
+
+        <SeekBar
+            android:id="@+id/bg_sound"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:max="200"
+            android:padding="20dp"
+            android:progress="0"
+            android:visibility="visible"
+            android:progressDrawable="@drawable/seek_bar_voice_bg"
+            android:thumb="@drawable/seek_bar_voice_circle"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="120dp"
+        android:layout_height="64dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:text="@string/finish"
+        android:textSize="36dp" />hi
+
+</LinearLayout>
